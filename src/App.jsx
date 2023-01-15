@@ -3,6 +3,8 @@ import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testi
 import Billing2 from "./components/Billing2";
 
 const App = () => (
+
+  console.log("Hello world")
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
